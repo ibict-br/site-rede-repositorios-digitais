@@ -180,4 +180,8 @@
       width: 200px;
       border: none;
   }
+  /* Ajustando Infográfico 1 */
+  .infograficoUm {
+    margin-left: -30px;
+}
 }
