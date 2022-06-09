@@ -90,16 +90,89 @@
 /* Media Queries */
 
 /* Ajustando os Mapas */
-@media (max-width: 1060px) {
-  .cardHover {
-    width: 122px;
-    border: none;
+@media (max-width: 1149px){
+    .cardHover {
+      width: 122px;
+      border: none;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  /*BOTOES*/
+.botao_sul {
+  background: #6A1417;
+  border: #6A1417;
+  color: aliceblue;
+  font-size: 10px;
+}
+
+.botao_sul:hover {
+  color: #FFFFFF;
+  background: #972226;
+}
+
+.botao_sudeste {
+  background: #fe4e1f;
+  border: #cf512e;
+  color: aliceblue;
+  font-size: 10px;
+}
+
+.botao_sudeste:hover {
+  color: #FFFFFF;
+  background: #cf512e;
+}
+
+.botao_nordeste {
+  background: #197b3b;
+  border: #197b3b;
+  color: aliceblue;
+  font-size: 10px;
+}
+
+.botao_nordeste:hover {
+  color: #FFFFFF;
+  background: #045320;
+}
+
+.botao_norte {
+  background: #3249a5;
+  border: #3249a5;
+  color: aliceblue;
+  font-size: 10px;
+}
+
+.botao_norte:hover {
+  color: #FFFFFF;
+  background: #4361da;
+}
+
+.botao_centro_oeste {
+  background: #efed05;
+  border: #efed05;
+  color: #000000;
+  font-size: 10px;
+}
+
+.botao_centro_oeste:hover {
+  color: #000000;
+  background: #e2cd0a;
+}
+.navbar-expand-lg .navbar-nav {
+  font-size: 12px;
 }
 }
 @media (max-width: 991px) {
     .cardHover {
       width: 120px;
       border: none;
+  }
+    .card-text {
+      font-size: 12px;
+  }
+  .zerando {
+    margin-top: -70px;
+    padding: 20px;
   }
 }
 @media (max-width: 767px) {
