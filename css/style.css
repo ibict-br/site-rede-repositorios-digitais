@@ -1,5 +1,10 @@
 /*# sourceMappingURL=style.css.map */
-
+/* MENU  */
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+}
 /*BOTOES*/
 .botao_sul {
   background: #6A1417;
@@ -89,12 +94,18 @@
 }
 /* Media Queries */
 
+
 /* Ajustando os Mapas */
-@media (max-width: 1149px){
-    .cardHover {
-      width: 122px;
-      border: none;
-  }
+@media (max-width: 1274px){
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+}
+.cardHover {
+  width: 122px;
+  border: none;
+}
   .card-text {
     font-size: 14px;
   }
@@ -162,8 +173,31 @@
   font-size: 12px;
 }
 }
+@media (max-width: 1071px) {
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+  }
+  .cardHover {
+      width: 120px;
+      border: none;
+  }
+    .card-text {
+      font-size: 12px;
+  }
+  .zerando {
+    margin-top: -70px;
+    padding: 20px;
+  }
+}
 @media (max-width: 991px) {
-    .cardHover {
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+  .cardHover {
       width: 120px;
       border: none;
   }
@@ -176,7 +210,13 @@
   }
 }
 @media (max-width: 767px) {
-    .cardHover {
+   /* MENU  */
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+  .cardHover {
       width: 200px;
       border: none;
   }
