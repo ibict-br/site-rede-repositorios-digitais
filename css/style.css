@@ -1,4 +1,5 @@
 /*# sourceMappingURL=style.css.map */
+/* Espaçamento */
 /* MENU  */
 .nav-link {
   display: block;
@@ -93,90 +94,192 @@
   min-width: 300px;
 }
 /* Media Queries */
-
-
-/* Ajustando os Mapas */
-@media (max-width: 1274px){
+/* Menu em telas grandes */
+@media (max-width: 3000px) {
+  /* MENU  */
   .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 15px;
-}
-.cardHover {
-  width: 122px;
-  border: none;
-}
-  .card-text {
-    font-size: 14px;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  margin-left: 20px;
   }
-  /*BOTOES*/
-.botao_sul {
-  background: #6A1417;
-  border: #6A1417;
-  color: aliceblue;
-  font-size: 10px;
+  .dropdown-item {
+    font-size: 20px;
 }
+    .text-afastar-topo {
+      padding: 100px 100px 0 100px;
 
-.botao_sul:hover {
-  color: #FFFFFF;
-  background: #972226;
+  }
+  .text-justify {
+    font-size: 20px;
 }
+}
+@media (max-width: 1880px) {
+  /* MENU  */
+.nav-link {
+ display: block;
+ padding: 0.5rem 1rem;
+ font-size: 20px;
+ margin-left: 5px;
+}
+   .cardHover {
+       width: 200px;
+       border: none;
+   }
+   .text-justify {
+    font-size: 20px;
+}
+.dropdown-item {
+  font-size: 20px;
+}
+.text-afastar-topo {
+  padding: 100px 100px 0 100px;
 
-.botao_sudeste {
-  background: #fe4e1f;
-  border: #cf512e;
-  color: aliceblue;
-  font-size: 10px;
 }
+  }
+@media (max-width: 1562px) {
+  /* MENU  */
+.nav-link {
+ display: block;
+ padding: 0.5rem 1rem;
+ font-size: 20px;
+ margin-left: 3px;
+}
+.card-text {
+  font-size: 14px;
+}
+   .cardHover {
+       width: 200px;
+       border: none;
+   }
+   .text-justify {
+    font-size: 20px;
+}
+.dropdown-item {
+  font-size: 20px;
+}
+.text-afastar-topo {
+  padding: 50px 100px 0 100px;
 
-.botao_sudeste:hover {
-  color: #FFFFFF;
-  background: #cf512e;
 }
-
-.botao_nordeste {
-  background: #197b3b;
-  border: #197b3b;
-  color: aliceblue;
-  font-size: 10px;
+  }
+   @media (max-width: 1275px){
+    .nav-link {
+      display: block;
+      padding: 0.5rem 1rem;
+      font-size: 18px;
+  }
+  
+.zerando{
+  margin-top: 0px;
 }
-
-.botao_nordeste:hover {
-  color: #FFFFFF;
-  background: #045320;
+  .cardHover {
+    width: 122px;
+    border: none;
+  }
+    .card-text {
+      font-size: 14px;
+    }
+    /*BOTOES*/
+  .botao_sul {
+    background: #6A1417;
+    border: #6A1417;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  
+  .botao_sul:hover {
+    color: #FFFFFF;
+    background: #972226;
+  }
+  
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  
+  .botao_sudeste:hover {
+    color: #FFFFFF;
+    background: #cf512e;
+  }
+  
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  
+  .botao_nordeste:hover {
+    color: #FFFFFF;
+    background: #045320;
+  }
+  
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  
+  .botao_norte:hover {
+    color: #FFFFFF;
+    background: #4361da;
+  }
+  
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 10px;
+  }
+  
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  
+  .text-justify {
+   font-size: 16px;
 }
-
-.botao_norte {
-  background: #3249a5;
-  border: #3249a5;
-  color: aliceblue;
-  font-size: 10px;
+.dropdown-item {
+  font-size: 16px;
 }
-
-.botao_norte:hover {
-  color: #FFFFFF;
-  background: #4361da;
+  }
+@media (max-width: 1301px) {
+  .text-afastar-topo {
+    padding: 100px 100px 0 100px;
 }
-
-.botao_centro_oeste {
-  background: #efed05;
-  border: #efed05;
-  color: #000000;
-  font-size: 10px;
+.zerando {
+  margin-top: 0px;
+  padding: 20px;
 }
-
-.botao_centro_oeste:hover {
-  color: #000000;
-  background: #e2cd0a;
-}
-.navbar-expand-lg .navbar-nav {
-  font-size: 12px;
-}
-}
-@media (max-width: 1071px) {
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+  .cardHover {
+      width: 120px;
+      border: none;
+  }
+    .card-text {
+      font-size: 11px;
+  }
+ 
+  .text-justify {
+    padding: 0;
+    font-size: 16px;
+}
+.dropdown-item {
+  font-size: 16px;
+}
+}
+@media (max-width: 1140px) {
+  .nav-link {
+    
     font-size: 13px;
   }
   .cardHover {
@@ -186,10 +289,70 @@
     .card-text {
       font-size: 11px;
   }
-  .zerando {
-    margin-top: -70px;
-    padding: 20px;
+  .text-justify {
+    font-size: 16px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+}
+@media (max-width: 1113px) {
+  .nav-link {
+    
+    font-size: 14px;
   }
+  .cardHover {
+      width: 120px;
+      border: none;
+  }
+    .card-text {
+      font-size: 11px;
+  }
+  .text-justify {
+    font-size: 16px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+}
+@media (max-width: 1059px) {
+  .nav-link {
+    
+    font-size: 12px;
+  }
+  .cardHover {
+      width: 120px;
+      border: none;
+  }
+    .card-text {
+      font-size: 11px;
+  }
+  .text-justify {
+    font-size: 14px;
+}
+.dropdown-item {
+  font-size: 12px;
+}
+}
+@media (max-width: 992px) {
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+  .cardHover {
+      width: 120px;
+      border: none;
+  }
+    .card-text {
+      font-size: 12px;
+  }
+  .text-justify {
+    font-size: 14px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
 }
 @media (max-width: 991px) {
   .nav-link {
@@ -202,26 +365,43 @@
       border: none;
   }
     .card-text {
-      font-size: 12px;
+      font-size: 11px;
   }
   .zerando {
     margin-top: -70px;
     padding: 20px;
   }
+  .text-justify {
+    font-size: 16px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
 }
 @media (max-width: 767px) {
    /* MENU  */
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  font-size: 16px;
-}
-  .cardHover {
-      width: 200px;
-      border: none;
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
   }
-  /* Ajustando Infográfico 1 */
-  .infograficoUm {
-    margin-left: -30px;
+      .cardHover {
+          width: 200px;
+          border: none;
+      }
+      /* Ajustando Infográfico 1 */
+      .infograficoUm {
+        margin-left: -30px;
+    }
+    .text-justify {
+      font-size: 16px;
+  }
+  .dropdown-item {
+    font-size: 14px;
+  }
 }
+@media (max-width: 575px) {
+  .margem-topo{
+    margin-top: 10px;
+  }
 }
