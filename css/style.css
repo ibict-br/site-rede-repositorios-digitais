@@ -85,7 +85,7 @@
 
 /*Mouse Over*/
 .cardHover {
-  width: 200px;
+  width: 350px;
   border: none;
 }
 /* Infografico 1 */
@@ -100,11 +100,11 @@
   .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 20px;
   }
   .dropdown-item {
-    font-size: 20px;
+    font-size: 28px;
 }
     .text-afastar-topo {
       padding: 100px 100px 0 100px;
@@ -113,37 +113,45 @@
   .text-justify {
     font-size: 20px;
 }
+/* Slideshow */
+.carousel-caption{
+  margin-bottom: 170px;
 }
-@media (max-width: 1880px) {
+}
+@media (max-width: 2652px) {
   /* MENU  */
 .nav-link {
  display: block;
  padding: 0.5rem 1rem;
- font-size: 20px;
+ font-size: 30px;
  margin-left: 5px;
 }
    .cardHover {
-       width: 200px;
+       width: 300px;
        border: none;
    }
    .text-justify {
-    font-size: 20px;
+    font-size: 30px;
 }
 .dropdown-item {
-  font-size: 20px;
+  font-size: 28px;
 }
 .text-afastar-topo {
   padding: 100px 100px 0 100px;
 
 }
   }
-@media (max-width: 1562px) {
+@media (max-width: 2260px) {
   /* MENU  */
 .nav-link {
  display: block;
  padding: 0.5rem 1rem;
  font-size: 20px;
  margin-left: 3px;
+}
+/* Slideshow */
+.carousel-caption{
+  margin-bottom: 70px;
 }
 .card-text {
   font-size: 14px;
@@ -163,92 +171,7 @@
 
 }
   }
-   @media (max-width: 1275px){
-    .nav-link {
-      display: block;
-      padding: 0.5rem 1rem;
-      font-size: 18px;
-  }
-  
-.zerando{
-  margin-top: 0px;
-}
-  .cardHover {
-    width: 122px;
-    border: none;
-  }
-    .card-text {
-      font-size: 14px;
-    }
-    /*BOTOES*/
-  .botao_sul {
-    background: #6A1417;
-    border: #6A1417;
-    color: aliceblue;
-    font-size: 10px;
-  }
-  
-  .botao_sul:hover {
-    color: #FFFFFF;
-    background: #972226;
-  }
-  
-  .botao_sudeste {
-    background: #fe4e1f;
-    border: #cf512e;
-    color: aliceblue;
-    font-size: 10px;
-  }
-  
-  .botao_sudeste:hover {
-    color: #FFFFFF;
-    background: #cf512e;
-  }
-  
-  .botao_nordeste {
-    background: #197b3b;
-    border: #197b3b;
-    color: aliceblue;
-    font-size: 10px;
-  }
-  
-  .botao_nordeste:hover {
-    color: #FFFFFF;
-    background: #045320;
-  }
-  
-  .botao_norte {
-    background: #3249a5;
-    border: #3249a5;
-    color: aliceblue;
-    font-size: 10px;
-  }
-  
-  .botao_norte:hover {
-    color: #FFFFFF;
-    background: #4361da;
-  }
-  
-  .botao_centro_oeste {
-    background: #efed05;
-    border: #efed05;
-    color: #000000;
-    font-size: 10px;
-  }
-  
-  .botao_centro_oeste:hover {
-    color: #000000;
-    background: #e2cd0a;
-  }
-  
-  .text-justify {
-   font-size: 16px;
-}
-.dropdown-item {
-  font-size: 16px;
-}
-  }
-@media (max-width: 1301px) {
+@media (max-width: 1940px) {
   .text-afastar-topo {
     padding: 100px 100px 0 100px;
 }
@@ -262,9 +185,13 @@
     font-size: 16px;
   }
   .cardHover {
-      width: 120px;
+      width: 200px;
       border: none;
   }
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 70px;
+}
     .card-text {
       font-size: 11px;
   }
@@ -277,7 +204,7 @@
   font-size: 16px;
 }
 }
-@media (max-width: 1140px) {
+@media (max-width: 1716px) {
   .nav-link {
     
     font-size: 13px;
@@ -286,6 +213,10 @@
       width: 120px;
       border: none;
   }
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 70px;
+}
     .card-text {
       font-size: 11px;
   }
@@ -296,17 +227,82 @@
   font-size: 14px;
 }
 }
-@media (max-width: 1113px) {
+@media (max-width: 1672px) {
   .nav-link {
     
-    font-size: 14px;
+    font-size: 18px;
   }
   .cardHover {
-      width: 120px;
+      width: 200px;
       border: none;
   }
+  /*BOTOES*/
+.botao_sul {
+  background: #6A1417;
+  border: #6A1417;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.botao_sul:hover {
+  color: #FFFFFF;
+  background: #972226;
+}
+
+.botao_sudeste {
+  background: #fe4e1f;
+  border: #cf512e;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.botao_sudeste:hover {
+  color: #FFFFFF;
+  background: #cf512e;
+}
+
+.botao_nordeste {
+  background: #197b3b;
+  border: #197b3b;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.botao_nordeste:hover {
+  color: #FFFFFF;
+  background: #045320;
+}
+
+.botao_norte {
+  background: #3249a5;
+  border: #3249a5;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.botao_norte:hover {
+  color: #FFFFFF;
+  background: #4361da;
+}
+
+.botao_centro_oeste {
+  background: #efed05;
+  border: #efed05;
+  color: #000000;
+  font-size: 14px;
+}
+
+.botao_centro_oeste:hover {
+  color: #000000;
+  background: #e2cd0a;
+}
+
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 50px;
+}
     .card-text {
-      font-size: 11px;
+      font-size: 14px;
   }
   .text-justify {
     font-size: 16px;
@@ -315,15 +311,19 @@
   font-size: 14px;
 }
 }
-@media (max-width: 1059px) {
+@media (max-width: 1326px) {
   .nav-link {
     
     font-size: 12px;
   }
   .cardHover {
-      width: 120px;
+      width: 150px;
       border: none;
   }
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 70px;
+}
     .card-text {
       font-size: 11px;
   }
@@ -334,18 +334,22 @@
   font-size: 12px;
 }
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
     font-size: 12px;
   }
   .cardHover {
-      width: 120px;
+      width: 150px;
       border: none;
   }
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 70px;
+}
     .card-text {
-      font-size: 12px;
+      font-size: 10px;
   }
   .text-justify {
     font-size: 14px;
@@ -354,7 +358,95 @@
   font-size: 14px;
 }
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+  }
+  .cardHover {
+      width: 120px;
+      border: none;
+  }
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 0px;
+}
+    .card-text {
+      font-size: 11px;
+  }
+  .zerando {
+    margin-top: -70px;
+    padding: 20px;
+  }
+  .text-justify {
+    font-size: 13px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+/*BOTOES*/
+.botao_sul {
+  background: #6A1417;
+  border: #6A1417;
+  color: aliceblue;
+  font-size: 11px;
+}
+
+.botao_sul:hover {
+  color: #FFFFFF;
+  background: #972226;
+}
+
+.botao_sudeste {
+  background: #fe4e1f;
+  border: #cf512e;
+  color: aliceblue;
+  font-size: 11px;
+}
+
+.botao_sudeste:hover {
+  color: #FFFFFF;
+  background: #cf512e;
+}
+
+.botao_nordeste {
+  background: #197b3b;
+  border: #197b3b;
+  color: aliceblue;
+  font-size: 11px;
+}
+
+.botao_nordeste:hover {
+  color: #FFFFFF;
+  background: #045320;
+}
+
+.botao_norte {
+  background: #3249a5;
+  border: #3249a5;
+  color: aliceblue;
+  font-size: 11px;
+}
+
+.botao_norte:hover {
+  color: #FFFFFF;
+  background: #4361da;
+}
+
+.botao_centro_oeste {
+  background: #efed05;
+  border: #efed05;
+  color: #000000;
+  font-size: 11px;
+}
+
+.botao_centro_oeste:hover {
+  color: #000000;
+  background: #e2cd0a;
+}
+}
+@media (max-width: 992px) {
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
@@ -364,6 +456,10 @@
       width: 120px;
       border: none;
   }
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 70px;
+}
     .card-text {
       font-size: 11px;
   }
@@ -378,15 +474,16 @@
   font-size: 14px;
 }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
    /* MENU  */
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
     font-size: 16px;
   }
+  /* Espaçamento dos Mapas Pequenos */
       .cardHover {
-          width: 200px;
+          width: 120px;
           border: none;
       }
       /* Ajustando Infográfico 1 */
@@ -400,7 +497,7 @@
     font-size: 14px;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .margem-topo{
     margin-top: 10px;
   }
