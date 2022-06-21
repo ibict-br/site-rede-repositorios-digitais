@@ -357,6 +357,13 @@
 .dropdown-item {
   font-size: 14px;
 }
+/*  BUSCA */
+.form-control {
+  font-size: 12px;
+}
+.btn-busca {
+  font-size: 12px;
+}
 }
 @media (max-width: 1024px) {
   .nav-link {
