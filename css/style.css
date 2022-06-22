@@ -675,92 +675,90 @@
 } */
 }
 @media (max-width: 1672px) {
-  /* MENU  */
-  .nav-link {
-    font-size: 30px;
-    margin-left: 8px;
+   /* MENU  */
+   .nav-link {
+    font-size: 22px;
+    margin-left: 5px;
   }
     /* MENU Dropdown */
   .dropdown-item {
-    font-size: 30px;
+    font-size: 21px;
   }
   /* Busca */
   .btn-dark {
-    font-size: 26px;
+    font-size: 20px;
   }
   /* Busca */
   .form-control {
-    font-size: 26px;
+    font-size: 20px;
   }
   /* Slideshow */
   .carousel-caption {
-    margin-bottom: 110px;
+    margin-bottom: 75px;
+  }
+  /* Título Carousel */
+  .h3CarouselImg {
+    font-size: 38px;
+  }
+  /* Texto Carousel */
+  .pCarouselImg {
+    font-size: 28px;
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
-    width: 330px;
+    width: 200px;
     border: none;
   }
   /* Tamanho Texto miniatura */
   .card-text {
-    font-size: 22px;
+    font-size: 14px;
   }
   /*BOTOES*/
   .botao_sul {
     background: #6a1417;
     border: #6a1417;
     color: aliceblue;
-    font-size: 22px;
+    font-size: 15px;
   }
-
   .botao_sul:hover {
     color: #ffffff;
     background: #972226;
   }
-
   .botao_sudeste {
     background: #fe4e1f;
     border: #cf512e;
     color: aliceblue;
-    font-size: 22px;
+    font-size: 15px;
   }
-
   .botao_sudeste:hover {
     color: #ffffff;
     background: #cf512e;
   }
-
   .botao_norte {
     background: #3249a5;
     border: #3249a5;
     color: aliceblue;
-    font-size: 22px;
+    font-size: 15px;
   }
-
   .botao_norte:hover {
     color: #ffffff;
     background: #4361da;
   }
-
   .botao_nordeste {
     background: #197b3b;
     border: #197b3b;
     color: aliceblue;
-    font-size: 22px;
+    font-size: 15px;
   }
-
   .botao_nordeste:hover {
     color: #ffffff;
     background: #045320;
   }
-
-  
-
   .botao_centro_oeste {
     background: #efed05;
     border: #efed05;
     color: #000000;
-    font-size: 22px;
+    font-size: 15px;
   }
   .botao_centro_oeste:hover {
     color: #000000;
@@ -773,7 +771,7 @@
 }
   /* Footer */
   footer .text-center {
-    font-size: 20px;
+    font-size: 18px;
   }
   /* Icon */
   /* .btn-outline-light {
@@ -809,7 +807,15 @@
   }
   /* Slideshow */
   .carousel-caption {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
+  }
+   /* Título Carousel */
+   .h3CarouselImg {
+    font-size: 30px;
+  }
+  /* Texto Carousel */
+  .pCarouselImg {
+    font-size: 20px;
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
@@ -827,50 +833,40 @@
     color: aliceblue;
     font-size: 15px;
   }
-
   .botao_sul:hover {
     color: #ffffff;
     background: #972226;
   }
-
   .botao_sudeste {
     background: #fe4e1f;
     border: #cf512e;
     color: aliceblue;
     font-size: 15px;
   }
-
   .botao_sudeste:hover {
     color: #ffffff;
     background: #cf512e;
   }
-
   .botao_norte {
     background: #3249a5;
     border: #3249a5;
     color: aliceblue;
     font-size: 15px;
   }
-
   .botao_norte:hover {
     color: #ffffff;
     background: #4361da;
   }
-
   .botao_nordeste {
     background: #197b3b;
     border: #197b3b;
     color: aliceblue;
     font-size: 15px;
   }
-
   .botao_nordeste:hover {
     color: #ffffff;
     background: #045320;
   }
-
-  
-
   .botao_centro_oeste {
     background: #efed05;
     border: #efed05;
