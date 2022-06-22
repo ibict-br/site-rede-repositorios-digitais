@@ -302,6 +302,10 @@
 .btn-dark {
   font-size: 14px;
 }
+/* Busca */
+.form-control {
+  font-size: 14px;
+}
   /* Slideshow */
 .carousel-caption{
   margin-bottom: 50px;
