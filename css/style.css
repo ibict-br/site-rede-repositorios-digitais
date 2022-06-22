@@ -75,6 +75,7 @@
 /*Carousel*/
 .carousel-caption{
   background-color: #4b53bc;
+  margin-bottom: 50px;
 }
 .h3CarouselImg {
   color: #FFFFFF;
@@ -299,6 +300,7 @@
   color: #000000;
   background: #e2cd0a;
 }
+/* Busca */
 .btn-dark {
   font-size: 14px;
 }
@@ -331,6 +333,14 @@
       width: 150px;
       border: none;
   }
+  /* Busca */
+.btn-dark {
+  font-size: 14px;
+}
+/* Busca */
+.form-control {
+  font-size: 14px;
+}
   /* Slideshow */
 .carousel-caption{
   margin-bottom: 70px;
@@ -355,9 +365,17 @@
       width: 150px;
       border: none;
   }
+  /* Busca */
+.btn-dark {
+  font-size: 14px;
+}
+/* Busca */
+.form-control {
+  font-size: 14px;
+}
   /* Slideshow */
 .carousel-caption{
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
     .card-text {
       font-size: 10px;
@@ -368,11 +386,12 @@
 .dropdown-item {
   font-size: 14px;
 }
-/*  BUSCA */
-.form-control {
+/* Busca */
+.btn-dark {
   font-size: 12px;
 }
-.btn-busca {
+/* Busca */
+.form-control {
   font-size: 12px;
 }
 }
@@ -386,23 +405,6 @@
       width: 120px;
       border: none;
   }
-  /* Slideshow */
-.carousel-caption{
-  margin-bottom: 0px;
-}
-    .card-text {
-      font-size: 11px;
-  }
-  .zerando {
-    margin-top: -70px;
-    padding: 20px;
-  }
-  .text-justify {
-    font-size: 13px;
-}
-.dropdown-item {
-  font-size: 14px;
-}
 /*BOTOES*/
 .botao_sul {
   background: #6A1417;
@@ -462,6 +464,31 @@
 .botao_centro_oeste:hover {
   color: #000000;
   background: #e2cd0a;
+}
+/* Busca */
+.btn-dark {
+  font-size: 12px;
+}
+/* Busca */
+.form-control {
+  font-size: 12px;
+}
+  /* Slideshow */
+.carousel-caption{
+  margin-bottom: 50px;
+}
+    .card-text {
+      font-size: 11px;
+  }
+  .zerando {
+    margin-top: -70px;
+    padding: 20px;
+  }
+  .text-justify {
+    font-size: 13px;
+}
+.dropdown-item {
+  font-size: 14px;
 }
 }
 @media (max-width: 992px) {
