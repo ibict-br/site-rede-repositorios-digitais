@@ -8,13 +8,13 @@
 }
 /*BOTOES*/
 .botao_sul {
-  background: #6A1417;
-  border: #6A1417;
+  background: #6a1417;
+  border: #6a1417;
   color: aliceblue;
 }
 
 .botao_sul:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #972226;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .botao_sudeste:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #cf512e;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .botao_nordeste:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #045320;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .botao_norte:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #4361da;
 }
 
@@ -62,7 +62,6 @@
   background: #e2cd0a;
 }
 
-
 /*JUMBOTRON*/
 .jumbotron-image {
   background-position: center center;
@@ -73,17 +72,17 @@
 
 /* Estilos do HTML*/
 /*Carousel*/
-.carousel-caption{
+.carousel-caption {
   background-color: #4b53bc;
   margin-bottom: 50px;
 }
 .h3CarouselImg {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .pCarouselImg {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -102,448 +101,1041 @@
 @media (max-width: 3000px) {
   /* MENU  */
   .nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  font-size: 30px;
-  margin-left: 20px;
+    font-size: 30px;
+    margin-left: 8px;
   }
+    /* MENU Dropdown */
   .dropdown-item {
-    font-size: 28px;
-}
-    .text-afastar-topo {
-      padding: 100px 100px 0 100px;
-
+    font-size: 30px;
   }
-  .text-justify {
+  /* Busca */
+  .btn-dark {
+    font-size: 26px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 26px;
+  }
+  /* Slideshow */
+  .carousel-caption {
+    margin-bottom: 110px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 330px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
+}
+  /* Footer */
+  footer .text-center {
     font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
-/* Slideshow */
-.carousel-caption{
-  margin-bottom: 170px;
-}
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
 }
 @media (max-width: 2652px) {
   /* MENU  */
-.nav-link {
- display: block;
- padding: 0.5rem 1rem;
- font-size: 30px;
- margin-left: 5px;
-}
-   .cardHover {
-       width: 300px;
-       border: none;
-   }
-   .text-justify {
+  .nav-link {
     font-size: 30px;
-}
-.dropdown-item {
-  font-size: 28px;
-}
-.text-afastar-topo {
-  padding: 100px 100px 0 100px;
-
-}
+    margin-left: 8px;
   }
-@media (max-width: 2260px) {
-  /* MENU  */
-.nav-link {
- display: block;
- padding: 0.5rem 1rem;
- font-size: 20px;
- margin-left: 3px;
-}
-/* Slideshow */
-.carousel-caption{
-  margin-bottom: 70px;
-}
-.card-text {
-  font-size: 14px;
-}
-   .cardHover {
-       width: 200px;
-       border: none;
-   }
-   .text-justify {
-    font-size: 20px;
-}
-.dropdown-item {
-  font-size: 20px;
-}
-.text-afastar-topo {
-  padding: 50px 100px 0 100px;
-
-}
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
   }
-@media (max-width: 1940px) {
-  .text-afastar-topo {
-    padding: 100px 100px 0 100px;
-}
-.zerando {
-  margin-top: 0px;
-  padding: 20px;
-}
-  .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 16px;
+  /* Busca */
+  .btn-dark {
+    font-size: 26px;
   }
-  .cardHover {
-      width: 200px;
-      border: none;
+  /* Busca */
+  .form-control {
+    font-size: 26px;
   }
   /* Slideshow */
-.carousel-caption{
-  margin-bottom: 70px;
-}
-    .card-text {
-      font-size: 11px;
+  .carousel-caption {
+    margin-bottom: 110px;
   }
- 
-  .text-justify {
-    padding: 0;
-    font-size: 16px;
-}
-.dropdown-item {
-  font-size: 16px;
-}
-}
-@media (max-width: 1716px) {
-  .nav-link {
-    
-    font-size: 13px;
-  }
+  /* Tamanho Mapa miniatura */
   .cardHover {
-      width: 120px;
-      border: none;
+    width: 330px;
+    border: none;
   }
-  /* Slideshow */
-.carousel-caption{
-  margin-bottom: 70px;
-}
-    .card-text {
-      font-size: 11px;
-  }
-  .text-justify {
-    font-size: 16px;
-}
-.dropdown-item {
-  font-size: 14px;
-}
-}
-@media (max-width: 1672px) {
-  .nav-link {
-    
-    font-size: 18px;
-  }
-  .cardHover {
-      width: 200px;
-      border: none;
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
   }
   /*BOTOES*/
-.botao_sul {
-  background: #6A1417;
-  border: #6A1417;
-  color: aliceblue;
-  font-size: 14px;
-}
-
-.botao_sul:hover {
-  color: #FFFFFF;
-  background: #972226;
-}
-
-.botao_sudeste {
-  background: #fe4e1f;
-  border: #cf512e;
-  color: aliceblue;
-  font-size: 14px;
-}
-
-.botao_sudeste:hover {
-  color: #FFFFFF;
-  background: #cf512e;
-}
-
-.botao_nordeste {
-  background: #197b3b;
-  border: #197b3b;
-  color: aliceblue;
-  font-size: 14px;
-}
-
-.botao_nordeste:hover {
-  color: #FFFFFF;
-  background: #045320;
-}
-
-.botao_norte {
-  background: #3249a5;
-  border: #3249a5;
-  color: aliceblue;
-  font-size: 14px;
-}
-
-.botao_norte:hover {
-  color: #FFFFFF;
-  background: #4361da;
-}
-
-.botao_centro_oeste {
-  background: #efed05;
-  border: #efed05;
-  color: #000000;
-  font-size: 14px;
-}
-
-.botao_centro_oeste:hover {
-  color: #000000;
-  background: #e2cd0a;
-}
-/* Busca */
-.btn-dark {
-  font-size: 14px;
-}
-/* Busca */
-.form-control {
-  font-size: 14px;
-}
-  /* Slideshow */
-.carousel-caption{
-  margin-bottom: 50px;
-    background-color: #4b53bc;
-    color: white;
-}
-    .card-text {
-      font-size: 14px;
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
   }
-  .text-justify {
-    font-size: 16px;
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
 }
-.dropdown-item {
-  font-size: 14px;
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
 }
-@media (max-width: 1326px) {
+/*referencia*/
+@media (max-width: 2260px) {
+  /* MENU  */
   .nav-link {
-    
-    font-size: 12px;
+    font-size: 30px;
+    margin-left: 8px;
   }
-  .cardHover {
-      width: 150px;
-      border: none;
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
   }
   /* Busca */
-.btn-dark {
-  font-size: 14px;
-}
-/* Busca */
-.form-control {
-  font-size: 14px;
-}
-  /* Slideshow */
-.carousel-caption{
-  margin-bottom: 70px;
-}
-    .card-text {
-      font-size: 11px;
+  .btn-dark {
+    font-size: 26px;
   }
-  .text-justify {
+  /* Busca */
+  .form-control {
+    font-size: 26px;
+  }
+  /* Slideshow */
+  .carousel-caption {
+    margin-bottom: 110px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 330px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
+}
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
+}
+@media (max-width: 1940px) {
+  /* MENU  */
+  .nav-link {
+    font-size: 30px;
+    margin-left: 8px;
+  }
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
+  }
+  /* Busca */
+  .btn-dark {
+    font-size: 26px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 26px;
+  }
+  /* Slideshow */
+  .carousel-caption {
+    margin-bottom: 110px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 330px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
+}
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
+}
+@media (max-width: 1716px) {
+   /* MENU  */
+   .nav-link {
+    font-size: 30px;
+    margin-left: 8px;
+  }
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
+  }
+  /* Busca */
+  .btn-dark {
+    font-size: 26px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 26px;
+  }
+  /* Slideshow */
+  .carousel-caption {
+    margin-bottom: 110px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 330px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
+}
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
+}
+@media (max-width: 1672px) {
+  /* MENU  */
+  .nav-link {
+    font-size: 30px;
+    margin-left: 8px;
+  }
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
+  }
+  /* Busca */
+  .btn-dark {
+    font-size: 26px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 26px;
+  }
+  /* Slideshow */
+  .carousel-caption {
+    margin-bottom: 110px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 330px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
+}
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
+}
+@media (max-width: 1366px) {
+   /* MENU  */
+   .nav-link {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 15px;
+  }
+  /* Busca */
+  .btn-dark {
+    font-size: 15px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 15px;
+  }
+  /* Slideshow */
+  .carousel-caption {
+    margin-bottom: 40px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 200px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
     font-size: 14px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 15px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 15px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 15px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 15px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 15px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
 }
-.dropdown-item {
-  font-size: 12px;
+  /* Footer */
+  footer .text-center {
+    font-size: 18px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
 }
 @media (max-width: 1200px) {
+  /* MENU  */
   .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 12px;
+    font-size: 30px;
+    margin-left: 8px;
   }
-  .cardHover {
-      width: 150px;
-      border: none;
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
   }
   /* Busca */
-.btn-dark {
-  font-size: 14px;
-}
-/* Busca */
-.form-control {
-  font-size: 14px;
-}
+  .btn-dark {
+    font-size: 26px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 26px;
+  }
   /* Slideshow */
-.carousel-caption{
-  margin-bottom: 50px;
-}
-    .card-text {
-      font-size: 10px;
+  .carousel-caption {
+    margin-bottom: 110px;
   }
-  .text-justify {
-    font-size: 14px;
-}
-.dropdown-item {
-  font-size: 14px;
-}
-/* Busca */
-.btn-dark {
-  font-size: 12px;
-}
-/* Busca */
-.form-control {
-  font-size: 12px;
-}
-}
-@media (max-width: 1024px) {
-  .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 13px;
-  }
+  /* Tamanho Mapa miniatura */
   .cardHover {
-      width: 120px;
-      border: none;
+    width: 330px;
+    border: none;
   }
-/*BOTOES*/
-.botao_sul {
-  background: #6A1417;
-  border: #6A1417;
-  color: aliceblue;
-  font-size: 11px;
-}
-
-.botao_sul:hover {
-  color: #FFFFFF;
-  background: #972226;
-}
-
-.botao_sudeste {
-  background: #fe4e1f;
-  border: #cf512e;
-  color: aliceblue;
-  font-size: 11px;
-}
-
-.botao_sudeste:hover {
-  color: #FFFFFF;
-  background: #cf512e;
-}
-
-.botao_nordeste {
-  background: #197b3b;
-  border: #197b3b;
-  color: aliceblue;
-  font-size: 11px;
-}
-
-.botao_nordeste:hover {
-  color: #FFFFFF;
-  background: #045320;
-}
-
-.botao_norte {
-  background: #3249a5;
-  border: #3249a5;
-  color: aliceblue;
-  font-size: 11px;
-}
-
-.botao_norte:hover {
-  color: #FFFFFF;
-  background: #4361da;
-}
-
-.botao_centro_oeste {
-  background: #efed05;
-  border: #efed05;
-  color: #000000;
-  font-size: 11px;
-}
-
-.botao_centro_oeste:hover {
-  color: #000000;
-  background: #e2cd0a;
-}
-/* Busca */
-.btn-dark {
-  font-size: 12px;
-}
-/* Busca */
-.form-control {
-  font-size: 12px;
-}
-  /* Slideshow */
-.carousel-caption{
-  margin-bottom: 50px;
-}
-    .card-text {
-      font-size: 11px;
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
   }
-  .zerando {
-    margin-top: -70px;
-    padding: 20px;
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
   }
-  .text-justify {
-    font-size: 13px;
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
 }
-.dropdown-item {
-  font-size: 14px;
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
+  }
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
 }
 @media (max-width: 992px) {
+  /* MENU  */
   .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 16px;
+    font-size: 30px;
+    margin-left: 8px;
   }
-  .cardHover {
-      width: 120px;
-      border: none;
+    /* MENU Dropdown */
+  .dropdown-item {
+    font-size: 30px;
+  }
+  /* Busca */
+  .btn-dark {
+    font-size: 26px;
+  }
+  /* Busca */
+  .form-control {
+    font-size: 26px;
   }
   /* Slideshow */
-.carousel-caption{
-  margin-bottom: 70px;
+  .carousel-caption {
+    margin-bottom: 110px;
+  }
+  /* Tamanho Mapa miniatura */
+  .cardHover {
+    width: 330px;
+    border: none;
+  }
+  /* Tamanho Texto miniatura */
+  .card-text {
+    font-size: 22px;
+  }
+  /*BOTOES*/
+  .botao_sul {
+    background: #6a1417;
+    border: #6a1417;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sul:hover {
+    color: #ffffff;
+    background: #972226;
+  }
+
+  .botao_sudeste {
+    background: #fe4e1f;
+    border: #cf512e;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_sudeste:hover {
+    color: #ffffff;
+    background: #cf512e;
+  }
+
+  .botao_norte {
+    background: #3249a5;
+    border: #3249a5;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_norte:hover {
+    color: #ffffff;
+    background: #4361da;
+  }
+
+  .botao_nordeste {
+    background: #197b3b;
+    border: #197b3b;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  .botao_nordeste:hover {
+    color: #ffffff;
+    background: #045320;
+  }
+
+  
+
+  .botao_centro_oeste {
+    background: #efed05;
+    border: #efed05;
+    color: #000000;
+    font-size: 22px;
+  }
+  .botao_centro_oeste:hover {
+    color: #000000;
+    background: #e2cd0a;
+  }
+  .infograficoUm {
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: -60px;
 }
-    .card-text {
-      font-size: 11px;
+  /* Footer */
+  footer .text-center {
+    font-size: 20px;
   }
-  .zerando {
-    margin-top: -70px;
-    padding: 20px;
-  }
-  .text-justify {
-    font-size: 16px;
+  /* Icon */
+  /* .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
-.dropdown-item {
-  font-size: 14px;
-}
-}
-@media (max-width: 768px) {
-   /* MENU  */
-  .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 16px;
-  }
-  /* Espaçamento dos Mapas Pequenos */
-      .cardHover {
-          width: 120px;
-          border: none;
-      }
-      /* Ajustando Infográfico 1 */
-      .infograficoUm {
-        margin-left: -30px;
-    }
-    .text-justify {
-      font-size: 16px;
-  }
-  .dropdown-item {
-    font-size: 14px;
-  }
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+} */
 }
 @media (max-width: 576px) {
-  .margem-topo{
+  .margem-topo {
     margin-top: 10px;
   }
 }
