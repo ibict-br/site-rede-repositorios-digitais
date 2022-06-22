@@ -706,12 +706,12 @@
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
-    width: 200px;
+    width: 250px;
     border: none;
   }
   /* Tamanho Texto miniatura */
   .card-text {
-    font-size: 14px;
+    font-size: 16px;
   }
   /*BOTOES*/
   .botao_sul {
