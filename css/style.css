@@ -220,6 +220,11 @@
     font-weight: 400;
     font-size: 20px;
   } */
+  /* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 2652px) {
   /* MENU  */
@@ -343,6 +348,11 @@
     font-weight: 400;
     font-size: 20px;
   } */
+  /* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 /*referencia*/
 @media (max-width: 2260px) {
@@ -467,6 +477,11 @@
   font-weight: 400;
   font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 1940px) {
   /* MENU  */
@@ -590,6 +605,11 @@
   font-weight: 400;
   font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 1716px) {
   /* MENU  */
@@ -713,6 +733,11 @@
   font-weight: 400;
   font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 1672px) {
   /* MENU  */
@@ -837,6 +862,11 @@
     font-weight: 400;
     font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 1366px) {
   /* MENU  */
@@ -960,6 +990,11 @@
     font-weight: 400;
     font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 1200px) {
   /* MENU  */
@@ -1100,6 +1135,11 @@
     font-weight: 400;
     font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 992px) {
   /* MENU  */
@@ -1221,6 +1261,11 @@
     font-weight: 400;
     font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 768px) {
   /* MENU  */
@@ -1342,6 +1387,11 @@
     font-weight: 400;
     font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
 @media (max-width: 576px) {
   /* MENU  */
@@ -1463,4 +1513,9 @@
     font-weight: 400;
     font-size: 20px;
 } */
+/* Cor Documentos */
+.corDoc {
+  background-color: #4b53bc;
+  padding: 2em;
+}
 }
