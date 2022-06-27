@@ -73,7 +73,7 @@
 /* Estilos do HTML*/
 /*Carousel*/
 .carousel-caption {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   margin-bottom: 50px;
 }
 .h3CarouselImg {
@@ -101,20 +101,20 @@
 @media (max-width: 3000px) {
   /* MENU  */
   .nav-link {
-    font-size: 40px;
+    font-size: 21px;
     margin-left: 10px;
   }
   /* MENU Dropdown */
   .dropdown-item {
-    font-size: 38px;
+    font-size: 20px;
   }
   /* Busca */
   .btn-dark {
-    font-size: 36px;
+    font-size: 20px;
   }
   /* Busca */
   .form-control {
-    font-size: 36px;
+    font-size: 20px;
   }
   /* Slideshow */
   .carousel-caption {
@@ -122,11 +122,11 @@
   }
   /* Título Carousel */
   .h3CarouselImg {
-    font-size: 70px;
+    font-size: 45px;
   }
   /* Texto Carousel */
   .pCarouselImg {
-    font-size: 45px;
+    font-size: 30px;
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
@@ -222,27 +222,27 @@
   } */
   /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
 @media (max-width: 2652px) {
   /* MENU  */
   .nav-link {
-    font-size: 38px;
+    font-size: 21px;
     margin-left: 10px;
   }
   /* MENU Dropdown */
   .dropdown-item {
-    font-size: 36px;
+    font-size: 20px;
   }
   /* Busca */
   .btn-dark {
-    font-size: 34px;
+    font-size: 20px;
   }
   /* Busca */
   .form-control {
-    font-size: 34px;
+    font-size: 20px;
   }
   /* Slideshow */
   .carousel-caption {
@@ -250,11 +250,11 @@
   }
   /* Título Carousel */
   .h3CarouselImg {
-    font-size: 65px;
+    font-size: 45px;
   }
   /* Texto Carousel */
   .pCarouselImg {
-    font-size: 40px;
+    font-size: 30px;
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
@@ -350,7 +350,7 @@
   } */
   /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -358,20 +358,20 @@
 @media (max-width: 2260px) {
   /* MENU  */
   .nav-link {
-    font-size: 32px;
+    font-size: 21px;
     margin-left: 10px;
   }
   /* MENU Dropdown */
   .dropdown-item {
-    font-size: 30px;
+    font-size: 20px;
   }
   /* Busca */
   .btn-dark {
-    font-size: 28px;
+    font-size: 20px;
   }
   /* Busca */
   .form-control {
-    font-size: 28px;
+    font-size: 20px;
   }
   /* Slideshow */
   .carousel-caption {
@@ -379,11 +379,11 @@
   }
   /* Título Carousel */
   .h3CarouselImg {
-    font-size: 55px;
+    font-size: 40px;
   }
   /* Texto Carousel */
   .pCarouselImg {
-    font-size: 35px;
+    font-size: 25px;
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
@@ -479,27 +479,27 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
 @media (max-width: 1940px) {
   /* MENU  */
   .nav-link {
-    font-size: 26px;
+    font-size: 21px;
     margin-left: 5px;
   }
   /* MENU Dropdown */
   .dropdown-item {
-    font-size: 25px;
+    font-size: 20px;
   }
   /* Busca */
   .btn-dark {
-    font-size: 23px;
+    font-size: 20px;
   }
   /* Busca */
   .form-control {
-    font-size: 23px;
+    font-size: 20px;
   }
   /* Slideshow */
   .carousel-caption {
@@ -507,27 +507,27 @@
   }
   /* Título Carousel */
   .h3CarouselImg {
-    font-size: 45px;
+    font-size: 40px;
   }
   /* Texto Carousel */
   .pCarouselImg {
-    font-size: 35px;
+    font-size: 25px;
   }
   /* Tamanho Mapa miniatura */
   .cardHover {
-    width: 290px;
+    width: 250px;
     border: none;
   }
   /* Tamanho Texto miniatura */
   .card-text {
-    font-size: 20px;
+    font-size: 18px;
   }
   /*BOTOES*/
   .botao_sul {
     background: #6a1417;
     border: #6a1417;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
   }
   .botao_sul:hover {
     color: #ffffff;
@@ -537,7 +537,7 @@
     background: #fe4e1f;
     border: #cf512e;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
   }
   .botao_sudeste:hover {
     color: #ffffff;
@@ -547,7 +547,7 @@
     background: #3249a5;
     border: #3249a5;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
   }
   .botao_norte:hover {
     color: #ffffff;
@@ -557,7 +557,7 @@
     background: #197b3b;
     border: #197b3b;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
   }
   .botao_nordeste:hover {
     color: #ffffff;
@@ -567,7 +567,7 @@
     background: #efed05;
     border: #efed05;
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
   }
   .botao_centro_oeste:hover {
     color: #000000;
@@ -606,8 +606,12 @@
   font-size: 20px;
 } */
 /* Cor Documentos */
+.corDocBanner {
+  background-color: #197b3b;
+  padding: 2em;
+}
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #a7bfaf;
   padding: 2em;
 }
 }
@@ -735,7 +739,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -864,7 +868,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -992,7 +996,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -1137,7 +1141,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -1263,7 +1267,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -1389,7 +1393,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
@@ -1515,7 +1519,7 @@
 } */
 /* Cor Documentos */
 .corDoc {
-  background-color: #4b53bc;
+  background-color: #3249a5;
   padding: 2em;
 }
 }
