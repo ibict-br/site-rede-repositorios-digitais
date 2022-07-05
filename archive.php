@@ -17,6 +17,10 @@
     <article class="mb-5">
         <h2 class="titDoc2"><?php the_title(); ?></h2>
         <div class="meta-text">
+            <p>Categoria: <?php the_category( ' ' ); ?> </p>
+	
+            <p>Escrito por: <?php the_author(); ?></p>
+
             <p><?php the_content(); ?></p>
         </div>
     </article>
