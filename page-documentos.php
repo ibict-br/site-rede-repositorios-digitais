@@ -9,7 +9,7 @@
             Repositórios Regionais</p>
     </div>
 </div>
-
+<!--Fim Jumbotron-->
 <!--Documentos-->
 <div class="container mb-5">
     <?php
@@ -32,6 +32,7 @@
     <?php endif; ?>
 </div>
 <!--Container fim-->
+
 <!--Documentos Fim-->
-<!--Fim Jumbotron-->
+
 <?php get_footer(); ?>

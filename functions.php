@@ -14,9 +14,14 @@ function load_scripts()
 }
 // Chamando a função load_scripts
 add_action('wp_enqueue_scripts', 'load_scripts');
+
+
+function redes_config() {
 // Registrando nossos menus
 register_nav_menus(
     array(
         'primary' => 'Main Menu',
     )
 );
+}
+add_action( 'after_setup_theme', 'redes_config', 0 );
