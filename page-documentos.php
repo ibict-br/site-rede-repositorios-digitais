@@ -31,18 +31,7 @@
     <p>Documentos não encontrados.</p>
     <?php endif; ?>
 </div>
-
-
-
-
-
-
-
-
-
-
 <!--Container fim-->
-
 <!--Documentos Fim-->
 <!--Fim Jumbotron-->
 <?php get_footer(); ?>
