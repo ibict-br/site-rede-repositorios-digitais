@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-light">
             <a class="navbar-brand mx-auto" href="<?php bloginfo( 'url' ); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-todos.png" width="500"
+                <img src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" width="500"
                     alt="Logo Redes de Repositórios Digitais" class="img-fluid">
             </a>
         </nav>
