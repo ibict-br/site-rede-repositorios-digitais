@@ -23,5 +23,11 @@ register_nav_menus(
         'primary' => 'Main Menu',
     )
 );
+    add_theme_support( 'custom-logo', array(
+        'height'               => 500,
+        'flex-height'          => true,
+        'flex-width'           => true,
+        'header-text'          => array( 'site-title', 'site-description' ),
+    ) );
 }
 add_action( 'after_setup_theme', 'redes_config', 0 );

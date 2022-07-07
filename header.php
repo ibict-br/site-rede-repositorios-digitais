@@ -14,10 +14,11 @@
     <!-- Container Logo -->
     <div class="container-fluid">
         <nav class="navbar navbar-light">
-            <a class="navbar-brand mx-auto" href="<?php bloginfo( 'url' ); ?>">
-                <img src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" width="500"
-                    alt="Logo Redes de Repositórios Digitais" class="img-fluid">
-            </a>
+            <div class="container mx-auto">
+                <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>">
+                    <?php the_custom_logo(); ?>
+                </a>
+            </div>
         </nav>
     </div>
     <!--Fim Container Logo-->

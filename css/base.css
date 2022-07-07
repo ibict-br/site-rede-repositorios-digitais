@@ -80,7 +80,10 @@
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
-
+.carousel-altura {
+  max-height: 375px;
+  width: 1920px;
+}
 /*Mouse Over*/
 .cardHover {
   width: 350px;
@@ -101,6 +104,10 @@
   font-size: 42px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
+}
+/* Customizando logo */
+.custom-logo-link {
+  margin: 0 auto;
 }
 
 /* Media Queries */

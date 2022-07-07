@@ -10,8 +10,8 @@
     <!--Fim indicadores-->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide-01.png" class="image-fluid w-100"
-                alt="slide-01">
+            <img class="carousel-altura" src="<?php echo get_post_meta($post->ID, 'slide1-foto', true); ?>"
+                alt="slide-01" class="img-fluid w-100">
             <!--Texto sobre as imagens-->
             <div class="carousel-caption text-dark w-50 mx-auto">
                 <h3 class="h3CarouselImg"><?php echo get_post_meta($post->ID, 'slide1-titulo', true); ?></h3>
@@ -20,8 +20,8 @@
             <!--FimTexto sobre as imagens-->
         </div>
         <div class="carousel-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide-02.png" class="image-fluid w-100"
-                alt="slide-02">
+            <img class="carousel-altura" src="<?php echo get_post_meta($post->ID, 'slide2-foto', true); ?>"
+                alt="slide-02" class="img-fluid w-100">
             <!--Texto sobre as imagens-->
             <div class="carousel-caption text-dark w-50 mx-auto">
                 <h3 class="h3CarouselImg"><?php echo get_post_meta($post->ID, 'slide2-titulo', true); ?></h3>
@@ -30,8 +30,8 @@
             <!--FimTexto sobre as imagens-->
         </div>
         <div class="carousel-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide-03.png" class="image-fluid w-100"
-                alt="slide-03">
+            <img class="carousel-altura" src="<?php echo get_post_meta($post->ID, 'slide3-foto', true); ?>"
+                alt="slide-03" class="img-fluid w-100">
             <!--Texto sobre as imagens-->
             <div class="carousel-caption text-dark w-50 mx-auto">
                 <h3 class="h3CarouselImg"><?php echo get_post_meta($post->ID, 'slide3-titulo', true); ?></h3>
