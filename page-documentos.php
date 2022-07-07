@@ -1,15 +1,7 @@
 <?php get_header(); ?>
-<!--Jumbotron-->
-<div class="jumbotron jumbotron-fluid jumbotron-image">
-    <div class="container py-3 pl-5 corDocBanner">
-        <h1 class="display-4 titDoc">Documentos
-        </h1>
-        <p class="lead titDoc">Aqui estão os
-            documentos das Redes de
-            Repositórios Regionais</p>
-    </div>
-</div>
-<!--Fim Jumbotron-->
+<!--Template Banner-->
+<img class="carousel-altura mb-5" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Banner Portal da Rede Brasileira de Repositórios Digitais"/>
+<!--Fim Template Banner-->
 <!--Documentos-->
 <div class="container mb-5">
     <?php

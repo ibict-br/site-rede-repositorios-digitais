@@ -29,5 +29,23 @@ register_nav_menus(
         'flex-width'           => true,
         'header-text'          => array( 'site-title', 'site-description' ),
     ) );
+    
+    $defaults = array(
+        'default-image'          => '',
+        'random-default'         => false,
+        'width'                  => 375,
+        'height'                 => 1920,
+        'flex-height'            => true,
+        'flex-width'             => true,
+        'default-text-color'     => '',
+        'header-text'            => true,
+        'uploads'                => true,
+        'wp-head-callback'       => '',
+        'admin-head-callback'    => '',
+        'admin-preview-callback' => '',
+        'video'                  => true,
+        'video-active-callback'  => 'is_front_page',
+    );
+    add_theme_support( 'custom-header', $defaults );    
 }
 add_action( 'after_setup_theme', 'redes_config', 0 );
