@@ -81,7 +81,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .carousel-altura {
-  max-height: 400px;
+  max-height: 375px !important;
   width: 1920px;
 }
 /*Mouse Over*/
