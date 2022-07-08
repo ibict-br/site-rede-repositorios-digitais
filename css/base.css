@@ -113,6 +113,37 @@
   display: flex;
   justify-content: space-between;
 }
+/* Paginação */
+.nav-links .page-numbers {
+  padding: 10px 15px;
+  display: inline-block;
+  background: #494949;
+  color: #ffffff;
+}
+.novo {
+  color: #000000;
+}
+.antigo {
+  color: #000000;
+}
+.novo a {
+  color: #5a5a5a;
+}
+.antigo a {
+  color: #5a5a5a;
+}
+.novo a:hover {
+  color: #999999;
+}
+.antigo a:hover {
+  color: #999999;
+}
+.meta-info {
+  color: #000000;
+}
+.meta-info a {
+  color: #000000;
+}
 /* Media Queries */
 /* Menu em telas grandes */
 @media (max-width: 3000px) {

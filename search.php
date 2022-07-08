@@ -1,3 +1,4 @@
+<!-- Página de pesquisa do formulário -->
 <?php get_header(); ?>
 <!--Template Banner-->
 <img class="carousel-altura mb-5 img-fluid" src="<?php header_image(); ?>"
@@ -25,13 +26,19 @@
             <p><?php the_excerpt(); ?></p>
         </div>
     </article>
+    <div class="redes-paginacao">
+                <div class="novo"><?php previous_posts_link( "Novas postagens >>" ); ?></div>
+                <div class="antigo"><?php next_posts_link( "<< Postagens antigas" ); ?></div>
+            </div>
     <p>
         <hr>
     </p>
     <?php
         endwhile; else: ?>
     <p>Documentos não encontrados.</p>
-    <?php endif; ?>
+    <?php endif; 
+    the_posts_pagination();
+    ?>
 </div>
 <!--Blog Fim-->
 <?php get_footer(); ?>
