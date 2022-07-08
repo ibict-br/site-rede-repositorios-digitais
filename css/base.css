@@ -109,7 +109,10 @@
 .custom-logo-link {
   margin: 0 auto;
 }
-
+.redes-paginacao {
+  display: flex;
+  justify-content: space-between;
+}
 /* Media Queries */
 /* Menu em telas grandes */
 @media (max-width: 3000px) {
