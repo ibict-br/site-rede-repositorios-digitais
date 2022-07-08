@@ -24,7 +24,7 @@
     </p>
     <?php
         endwhile; else: ?>
-    <p>Documentos não encontrados.</p>
+    <p class="mt-2">Documentos não encontrados.</p>
     <?php endif; ?>
 </div>
 <!--Container fim-->
