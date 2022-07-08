@@ -7,14 +7,14 @@
 <!--Blog-->
 <div class="container mb-5">
     <!-- Termo pesquisado -->
-    <h1>Procurando resultados por: <?php echo get_search_query(); ?></h1>
+    <h1 class="mb-5">Procurando resultados por: <?php echo get_search_query(); ?></h1>
 
     <?php
 
     get_search_form();
 
       if( have_posts() ): while( have_posts() ) : the_post(); ?>
-    <article class="mb-5">
+    <article class="mb-5 mt-5">
         <h2 class="titDoc2"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
         <?php if( 'post' == get_post_type() ) : ?>
         <div class="meta-info">
