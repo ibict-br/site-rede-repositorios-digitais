@@ -14,18 +14,10 @@
 /* Formulário dentro da pesquisa */
     get_search_form();
 
-      if( have_posts() ): while( have_posts() ) : the_post(); ?>
-    <article class="mb-5 mt-5">
-        <h2 class="titDoc2"><a class="titDoc2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        <?php if( 'post' == get_post_type() ) : ?>
-        <div class="meta-info">
-            <p>Categoria: <?php the_category( ' ' ); ?> </p>
-        </div>
-        <?php endif; ?>
-        <div class="meta-text">
-            <p><?php the_excerpt(); ?></p>
-        </div>
-    </article>
+      if( have_posts() ): while( have_posts() ) : the_post(); 
+      get_template_part( 'parts/content', 'search' );
+      ?>
+      
     <div class="redes-paginacao">
                 <div class="novo"><?php previous_posts_link( "Novas postagens >>" ); ?></div>
                 <div class="antigo"><?php next_posts_link( "<< Postagens antigas" ); ?></div>

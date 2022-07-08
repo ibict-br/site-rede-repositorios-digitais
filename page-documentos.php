@@ -1,7 +1,6 @@
-<?php get_header(); ?>
-<!--Template Banner-->
-<img class="carousel-altura mb-5 img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Banner Portal da Rede Brasileira de Repositórios Digitais"/>
-<!--Fim Template Banner-->
+<?php get_header(); 
+get_template_part( 'parts/content', 'banner' );
+?>
 <!--Documentos-->
 <div class="container mb-5">
     <?php

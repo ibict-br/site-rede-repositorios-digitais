@@ -8,27 +8,21 @@
 <div class="container mb-5">
     <?php
       if( have_posts() ): 
-      while( have_posts() ) : the_post(); ?>
-    <article class="mb-5">
-        <h2 class="titDoc2"><?php the_title(); ?></h2>
-        <div class="meta-info">
-            <p>Categoria: <?php the_category( ' ' ); ?> </p>
-        </div>
-        <div class="meta-text">
-            <p><?php the_content(); ?></p>
-        </div>
-    </article>
+      while( have_posts() ) : the_post();
+      /* Include */
+      get_template_part( 'parts/content' );
+      ?>
     <p>
         <hr>
     </p>
     <?php
         endwhile; 
         ?>
-            <div class="redes-paginacao">
-                <div class="novo"><?php previous_posts_link( "Novas postagens >>" ); ?></div>
-                <div class="antigo"><?php next_posts_link( "<< Postagens antigas" ); ?></div>
-            </div>
-        <?php 
+    <div class="redes-paginacao">
+        <div class="novo"><?php previous_posts_link( "Novas postagens >>" ); ?></div>
+        <div class="antigo"><?php next_posts_link( "<< Postagens antigas" ); ?></div>
+    </div>
+    <?php 
         else: ?>
     <p>Documentos não encontrados.</p>
     <?php endif; ?>
