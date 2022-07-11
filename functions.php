@@ -52,6 +52,6 @@ add_action( 'after_setup_theme', 'redes_config', 0 );
 
 // Controlando Excerpt
 function my_excerpt_length($length){
-    return 20;
+    return 80;
     }
     add_filter('excerpt_length', 'my_excerpt_length');
