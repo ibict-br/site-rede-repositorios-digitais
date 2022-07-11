@@ -755,9 +755,9 @@
   }
 
   .zoom:hover {
-    -ms-transform: scale(1.4); /* IE 9 */
-    -webkit-transform: scale(1.4); /* Safari 3-8 */
-    transform: scale(1.4);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
   }
   /* Footer */
   footer .text-center {
@@ -883,9 +883,9 @@
   }
 
   .zoom:hover {
-    -ms-transform: scale(1.6); /* IE 9 */
-    -webkit-transform: scale(1.6); /* Safari 3-8 */
-    transform: scale(1.6);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
   }
 
   /* Footer */
@@ -1012,9 +1012,9 @@
   }
 
   .zoom:hover {
-    -ms-transform: scale(1.6); /* IE 9 */
-    -webkit-transform: scale(1.6); /* Safari 3-8 */
-    transform: scale(1.6);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
   }
   /* Footer */
   footer .text-center {
@@ -1147,19 +1147,9 @@
   }
 
   .zoom:hover {
-    -ms-transform: scale(1.6); /* IE 9 */
-    -webkit-transform: scale(1.6); /* Safari 3-8 */
-    transform: scale(1.6);
-  }
-  /* ZOOM */
-  .zoom {
-    transition: transform 0.2s;
-  }
-
-  .zoom:hover {
-    -ms-transform: scale(1.6); /* IE 9 */
-    -webkit-transform: scale(1.6); /* Safari 3-8 */
-    transform: scale(1.6);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
   }
   /* Footer */
   footer .text-center {
