@@ -65,8 +65,8 @@
                     onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/centro-oeste.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Centro-Oeste de Repositórios Digitais</h6>
-                    <a href="http://rbrd.ibict.br/rede-centro-oeste-de-repositorios-digitais/" target="_blank"
-                        class="btn botao_centro_oeste mt-3 mb-5">Saiba mais</a>
+                    <?php echo '<a href="' . get_site_url() . '/rede-centro-oeste-de-repositorios-digitais" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">Saiba mais>' ?>
+                        </a>
                 </div>
             </div>
         </div>
