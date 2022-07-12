@@ -58,7 +58,7 @@
     <div class="row">
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="<?php echo get_template_directory_uri(); ?>/rede-centro-oeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top"
+                <a href="<?php echo get_template_directory_uri(); ?>/wordpress_rede/rede-centro-oeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top"
                         src="<?php bloginfo('template_directory'); ?>/img/centro-oeste.png" alt="Card image"
                         onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/centro-oeste-hover.png'"
                         onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/centro-oeste.png'"></a>
@@ -70,7 +70,7 @@
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="http://localhost/wordpress_rede/rede-nordeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/nordeste.png"
+                <a href="<?php bloginfo('template_directory'); ?>/./rede-nordeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/nordeste.png"
                         alt="Card image"
                         onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste-hover.png'"
                         onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste.png'"></a>
