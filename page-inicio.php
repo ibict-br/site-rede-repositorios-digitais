@@ -17,7 +17,7 @@
                 <h3 class="h3CarouselImg"><?php echo get_post_meta($post->ID, 'slide1-titulo', true); ?></h3>
                 <p class="lead pCarouselImg"><?php echo get_post_meta($post->ID, 'slide1-texto', true); ?></p>
             </div>
-            <!--FimTexto sobre as imagens-->
+            <!--Fim Texto sobre as imagens-->
         </div>
         <div class="carousel-item">
             <img class="carousel-altura" src="<?php echo get_post_meta($post->ID, 'slide2-foto', true); ?>"
@@ -27,7 +27,7 @@
                 <h3 class="h3CarouselImg"><?php echo get_post_meta($post->ID, 'slide2-titulo', true); ?></h3>
                 <p class="lead pCarouselImg"><?php echo get_post_meta($post->ID, 'slide2-texto', true); ?></p>
             </div>
-            <!--FimTexto sobre as imagens-->
+            <!--Fim Texto sobre as imagens-->
         </div>
         <div class="carousel-item">
             <img class="carousel-altura" src="<?php echo get_post_meta($post->ID, 'slide3-foto', true); ?>"
@@ -37,7 +37,7 @@
                 <h3 class="h3CarouselImg"><?php echo get_post_meta($post->ID, 'slide3-titulo', true); ?></h3>
                 <p class="lead pCarouselImg"><?php echo get_post_meta($post->ID, 'slide3-texto', true); ?></p>
             </div>
-            <!--FimTexto sobre as imagens-->
+            <!--Fim Texto sobre as imagens-->
         </div>
     </div>
     <!--Controle do Carousel-->

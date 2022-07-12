@@ -645,8 +645,24 @@
     font-size: 20px;
   } */
   /* Cor Documentos */
-  .corDocBanner {
+  .corDocBannerCentroOeste {
+    background-color: #efed05;
+    padding: 2em;
+  }
+  .corDocBannerNordeste {
     background-color: #197b3b;
+    padding: 2em;
+  }
+  .corDocBannerNorte {
+    background-color: #3249a5;
+    padding: 2em;
+  }
+  .corDocBannerSudeste {
+    background-color: #fe4e1f;
+    padding: 2em;
+  }
+  .corDocBannerSul {
+    background-color: #6a1417;
     padding: 2em;
   }
   .corDoc {
