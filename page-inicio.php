@@ -106,13 +106,13 @@
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="http://localhost/wordpress_rede/rede-sul-de-repositorios-digitais/" target="_blank"><img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/sul.png"
+                <a href="http://rbrd.ibict.br/rede-sul-de-repositorios-digitais/" target="_blank"><img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/sul.png"
                         alt="Card image"
                         onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sul-hover.png'"
                         onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sul.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Sul de <br> Repositórios Digitais</h6>
-                    <a href="http://localhost/wordpress_rede/rede-sul-de-repositorios-digitais/" target="_blank" class="btn botao_sul mt-3 mb-5">Saiba mais</a>
+                    <a href="http://rbrd.ibict.br/rede-sul-de-repositorios-digitais/" target="_blank" class="btn botao_sul mt-3 mb-5">Saiba mais</a>
                 </div>
             </div>
         </div>
