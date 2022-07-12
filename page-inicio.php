@@ -78,9 +78,9 @@
                     onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste-hover.png'"
                     onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste.png'"></a>
                 <div class="card-body">
-                    <h6 class="card-text text-uppercase">Rede Nordeste de Repositórios Digitais</h6>
-                    <a href="http://rbrd.ibict.br/rede-nordeste-de-repositorios-digitais/" target="_blank"
-                        class="btn botao_nordeste mt-3 mb-5">Saiba mais</a>
+                <h6 class="card-text text-uppercase">Rede Nordeste de Repositórios Digitais</h6>
+                    <?php echo '<a href="' . get_site_url() . '/rede-nordeste-de-repositorios-digitais" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">' ?>
+                    Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -91,9 +91,9 @@
                     onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/norte-hover.png'"
                     onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/norte.png'"></a>
                 <div class="card-body">
-                    <h6 class="card-text text-uppercase">Rede Norte de Repositórios Digitais</h6>
-                    <a href="http://rbrd.ibict.br/rede-norte-de-repositorios-digitais/" target="_blank"
-                        class="btn botao_norte mt-3 mb-5">Saiba mais</a>
+                <h6 class="card-text text-uppercase">Rede Norte de Repositórios Digitais</h6>
+                    <?php echo '<a href="' . get_site_url() . '/rede-norte-de-repositorios-digitais" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">' ?>
+                    Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -105,9 +105,9 @@
                     onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sudeste-hover.png'"
                     onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sudeste.png'"></a>
                 <div class="card-body">
-                    <h6 class="card-text text-uppercase">Rede Sudeste de Repositórios Digitais</h6>
-                    <a href="http://rbrd.ibict.br/rede-sudeste-de-repositorios-digitais/" target="_blank"
-                        class="btn botao_sudeste mt-3 mb-5">Saiba mais</a>
+                <h6 class="card-text text-uppercase">Rede Sudeste de Repositórios Digitais</h6>
+                    <?php echo '<a href="' . get_site_url() . '/rede-sudeste-de-repositorios-digitais" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">' ?>
+                    Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -118,9 +118,9 @@
                     onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sul-hover.png'"
                     onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sul.png'"></a>
                 <div class="card-body">
-                    <h6 class="card-text text-uppercase">Rede Sul de <br> Repositórios Digitais</h6>
-                    <a href="http://rbrd.ibict.br/rede-sul-de-repositorios-digitais/" target="_blank"
-                        class="btn botao_sul mt-3 mb-5">Saiba mais</a>
+                <h6 class="card-text text-uppercase">Rede Sul de Repositórios Digitais</h6>
+                    <?php echo '<a href="' . get_site_url() . '/rede-sul-de-repositorios-digitais" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">' ?>
+                    Saiba mais</a>
                 </div>
             </div>
         </div>
