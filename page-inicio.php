@@ -58,7 +58,7 @@
     <div class="row">
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <?php echo '<a href="' . get_site_url() . '/rede-centro-oeste-de-repositorios-digitais">' ?>
+                <?php echo '<a href="' . get_site_url() . '/rede-centro-oeste-de-repositorios-digitais"> target="_blank"' ?>
                 <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/centro-oeste.png"
                     alt="Card image"
                     onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/centro-oeste-hover.png'"
