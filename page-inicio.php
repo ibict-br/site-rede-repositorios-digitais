@@ -58,25 +58,25 @@
     <div class="row">
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="<?php echo get_template_directory_uri(); ?>/wordpress_rede/rede-centro-oeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top"
+                <a href="http://rbrd.ibict.br/rede-centro-oeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top"
                         src="<?php bloginfo('template_directory'); ?>/img/centro-oeste.png" alt="Card image"
                         onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/centro-oeste-hover.png'"
                         onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/centro-oeste.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Centro-Oeste de Repositórios Digitais</h6>
-                    <a href="<?php echo get_template_directory_uri(); ?>/rede-centro-oeste-de-repositorios-digitais/" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">Saiba mais</a>
+                    <a href="http://rbrd.ibict.br/rede-centro-oeste-de-repositorios-digitais/" target="_blank" class="btn botao_centro_oeste mt-3 mb-5">Saiba mais</a>
                 </div>
             </div>
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="<?php bloginfo('template_directory'); ?>/./rede-nordeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/nordeste.png"
+                <a href="http://rbrd.ibict.br/rede-nordeste-de-repositorios-digitais/" target="_blank"><img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/nordeste.png"
                         alt="Card image"
                         onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste-hover.png'"
                         onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Nordeste de Repositórios Digitais</h6>
-                    <a href="http://localhost/wordpress_rede/rede-nordeste-de-repositorios-digitais/" target="_blank" class="btn botao_nordeste mt-3 mb-5">Saiba mais</a>
+                    <a href="http://rbrd.ibict.br/rede-nordeste-de-repositorios-digitais/" target="_blank" class="btn botao_nordeste mt-3 mb-5">Saiba mais</a>
                 </div>
             </div>
         </div>
