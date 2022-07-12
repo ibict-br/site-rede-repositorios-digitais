@@ -7,9 +7,8 @@ Template Name: Rede Nordeste
 <!--Jumbotron-->
 <div class="jumbotron jumbotron-fluid jumbotron-image">
     <div class="container py-3 pl-5 corDocBannerNordeste">
-        <h1 class="display-4 titDoc">Rede Nordeste de Repositórios Digitais
+        <h1 class="titDoc">Rede Centro-Oeste de Repositórios Digitais
         </h1>
-        <p class="lead titDoc">Conheça a nossa rede de repositórios!</p>
     </div>
 </div>
 <!--Fim Jumbotron-->
