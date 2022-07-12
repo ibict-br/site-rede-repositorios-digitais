@@ -72,11 +72,11 @@
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="http://rbrd.ibict.br/rede-nordeste-de-repositorios-digitais/" target="_blank"><img
-                        class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/nordeste.png"
-                        alt="Card image"
-                        onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste-hover.png'"
-                        onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste.png'"></a>
+                <?php echo '<a href="' . get_site_url() . '/rede-nordeste-de-repositorios-digitais" target="_blank">' ?>
+                <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/nordeste.png"
+                    alt="Card image"
+                    onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste-hover.png'"
+                    onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/nordeste.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Nordeste de Repositórios Digitais</h6>
                     <a href="http://rbrd.ibict.br/rede-nordeste-de-repositorios-digitais/" target="_blank"
@@ -86,11 +86,10 @@
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="http://rbrd.ibict.br/rede-norte-de-repositorios-digitais/" target="_blank"><img
-                        class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/norte.png"
-                        alt="Card image"
-                        onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/norte-hover.png'"
-                        onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/norte.png'"></a>
+                <?php echo '<a href="' . get_site_url() . '/rede-norte-de-repositorios-digitais" target="_blank">' ?>
+                <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/norte.png" alt="Card image"
+                    onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/norte-hover.png'"
+                    onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/norte.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Norte de Repositórios Digitais</h6>
                     <a href="http://rbrd.ibict.br/rede-norte-de-repositorios-digitais/" target="_blank"
@@ -100,11 +99,11 @@
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="http://rbrd.ibict.br/rede-sudeste-de-repositorios-digitais/" target="_blank"><img
-                        class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/sudeste.png"
-                        alt="Card image"
-                        onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sudeste-hover.png'"
-                        onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sudeste.png'"></a>
+                <?php echo '<a href="' . get_site_url() . '/rede-sudeste-de-repositorios-digitais" target="_blank">' ?>
+                <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/sudeste.png"
+                    alt="Card image"
+                    onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sudeste-hover.png'"
+                    onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sudeste.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Sudeste de Repositórios Digitais</h6>
                     <a href="http://rbrd.ibict.br/rede-sudeste-de-repositorios-digitais/" target="_blank"
@@ -114,10 +113,10 @@
         </div>
         <div class="col-md">
             <div class="card ml-auto mr-auto cardHover">
-                <a href="http://rbrd.ibict.br/rede-sul-de-repositorios-digitais/" target="_blank"><img
-                        class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/sul.png" alt="Card image"
-                        onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sul-hover.png'"
-                        onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sul.png'"></a>
+                <?php echo '<a href="' . get_site_url() . '/rede-sul-de-repositorios-digitais" target="_blank">' ?>
+                <img class="card-img-top" src="<?php bloginfo('template_directory'); ?>/img/sul.png" alt="Card image"
+                    onmouseover="this.src='<?php bloginfo('template_directory'); ?>/./img/sul-hover.png'"
+                    onmouseout="this.src='<?php bloginfo('template_directory'); ?>/./img/sul.png'"></a>
                 <div class="card-body">
                     <h6 class="card-text text-uppercase">Rede Sul de <br> Repositórios Digitais</h6>
                     <a href="http://rbrd.ibict.br/rede-sul-de-repositorios-digitais/" target="_blank"
