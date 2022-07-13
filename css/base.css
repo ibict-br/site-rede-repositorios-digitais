@@ -9,6 +9,13 @@ body {
   text-align: left;
   background-color: #fff;
 }
+/* LOGO */
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  height: auto;
+}
 
 /*BOTOES*/
 .botao_sul {
