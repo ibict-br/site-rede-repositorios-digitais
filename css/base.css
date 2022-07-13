@@ -666,6 +666,10 @@ img {
     font-size: 20px;
   } */
   /* Cor Documentos */
+  .corDocBannerPadrao {
+    background-color: #202020;
+    padding: 2em;
+  }
   .corDocBannerCentroOeste {
     background-color: #efed05;
     padding: 2em;
