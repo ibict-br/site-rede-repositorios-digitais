@@ -12,8 +12,7 @@ get_template_part( 'parts/content', 'banner' );
 
     <div class="redes-paginacao">
         <!-- Navegação dentro dos posts - next_post_link - no singular -->
-        <div class="novo"><?php previous_post_link( '&laquo; %link' ); ?></div>
-        <div class="antigo"><?php next_post_link( '%link &raquo;' ); ?></div>
+        
     </div>
     <p>
         <hr>
