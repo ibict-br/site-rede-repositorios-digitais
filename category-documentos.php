@@ -33,5 +33,13 @@ Template Name: Documentos
 <!--Container fim-->
 
 <!--Documentos Fim-->
+
 <!--Fim Jumbotron-->
+
+<!-- Paginação -->
+
+<div class="container mb-5">
+    <?php  the_posts_pagination(); ?>
+</div>
+
 <?php get_footer(); ?>
